@@ -1,0 +1,265 @@
+Build a complete production-ready Employee Management & Payroll System using React.js (Vite), Node.js, Express.js, MongoDB, and JWT Authentication.
+
+IMPORTANT REQUIREMENTS
+
+1. Authentication & Security
+
+* Do NOT create demo accounts.
+* Do NOT seed any default users.
+* On first launch, show a "Create Administrator Account" setup screen.
+* Allow me to create my own username and password.
+* Store passwords securely using bcrypt hashing.
+* Use JWT authentication and role-based access control.
+* Roles:
+
+  * Super Admin
+  * HR Manager
+  * Employee
+
+2. Dashboard
+   Create a modern enterprise HRMS dashboard with:
+
+* Total Employees
+* Present Today
+* Absent Today
+* Employees on Leave
+* Monthly Payroll Summary
+* Overtime Summary
+* Recent Activities
+* Attendance Statistics
+* Salary Expense Analytics
+* Responsive charts and reports
+
+3. Employee Management
+   Store complete employee details:
+
+Personal Information:
+
+* Employee ID
+* Full Name
+* Gender
+* Contact Number
+* Email
+* Address
+* Joining Date
+* Department
+
+Bank Information:
+
+* Bank Name
+* Account Number
+* IFSC Code
+* UPI ID
+
+Salary Information:
+
+* Monthly Salary
+* Overtime Rate Per Hour
+
+Additional:
+
+* Employee Photo Upload
+* Active / Inactive Status
+
+4. Attendance Management
+   Provide attendance dashboard with:
+
+* Daily Attendance Entry
+* Present
+* Absent
+* Half Day
+* Paid Leave
+* Sick Leave
+* Casual Leave
+*Over Time
+* Holiday
+
+Attendance Features:
+
+* Monthly Calendar View
+* Attendance History
+* Search by Employee
+* Attendance Reports
+* Monthly Attendance Summary
+
+5. Leave Management
+   Create leave module with:
+
+* Paid Leave
+* Sick Leave
+* Emergency Leave
+
+Features:
+
+* Apply Leave
+* Approve Leave
+* Reject Leave
+* Leave Balance Tracking
+* Leave History
+
+6. Overtime Management
+   Provide overtime entry module:
+
+Fields:
+
+* Employee Name
+* Date
+* Overtime Hours
+* Reason
+* Approval Status
+
+Payroll must automatically calculate:
+Overtime Pay = Overtime Hours × Employee Overtime Rate
+
+7. Salary & Payroll System
+   IMPORTANT:
+
+Salary calculation must be based on a 30-day month.
+
+Daily Salary Formula:
+Daily Salary = Monthly Salary ÷ 30
+
+Payroll Formula:
+
+Monthly Salary
+
+* Overtime Amount
+
+- Advance Salary Deduction
+- Unpaid Leave Deduction
+  = Net Salary
+
+Include:
+
+* Basic Salary
+* Overtime Earnings
+* Paid Leave Handling
+* Sick Leave Handling
+* Advance Salary Deduction
+* Attendance-Based Deductions
+* Final Net Salary
+
+8. Advance Salary Management
+   Create Advance Salary module:
+
+Fields:
+
+* Employee
+* Advance Amount
+* Date
+* Reason
+* Remaining Balance
+
+Automatically deduct advance amounts during payroll generation.
+
+9. Festival & Holiday Calendar
+   Create interactive calendar with:
+
+Indian National Holidays:
+
+* Republic Day
+* Holi
+* Independence Day
+* Raksha Bandhan
+* Janmashtami
+* Dussehra
+* Diwali
+* Christmas
+* Eid
+* Guru Nanak Jayanti
+
+Features:
+
+* Add Custom Holidays
+* Holiday Management
+* Monthly Calendar View
+* Company Events
+
+10. Reports
+    Generate:
+
+* Monthly Attendance Report
+* Employee Report
+* Payroll Report
+* Overtime Report
+* Leave Report
+* Advance Salary Report
+
+Export Options:
+
+* PDF
+* Excel
+* CSV
+
+11. Payslip System
+    Generate professional printable payslips containing:
+
+* Employee Details
+* Salary Breakdown
+* Attendance Summary
+* Overtime Details
+* Leave Summary
+* Advance Salary Deductions
+* Net Salary
+
+Allow:
+
+* Print
+* Save as PDF
+
+12. Database
+    Create MongoDB collections for:
+
+* Users
+* Employees
+* Attendance
+* Leave
+* Overtime
+* Payroll
+* Holidays
+* AdvanceSalary
+
+13. UI / UX Requirements
+    Create premium enterprise-grade design similar to professional HR software.
+
+Requirements:
+
+* Modern Sidebar Navigation
+* Dashboard Cards
+* Professional Data Tables
+* Search & Filters
+* Pagination
+* Responsive Layout
+* Dark Mode & Light Mode
+* Clean Typography
+* Mobile Friendly
+* Proper Alignment of All Input Fields
+* No overlapping forms
+* Consistent spacing
+
+14. Project Structure
+    Generate complete source code including:
+
+* Frontend
+* Backend
+* Database Models
+* APIs
+* Authentication
+* Validation
+* Error Handling
+* Environment Variables
+* Installation Guide
+
+15. Final Delivery
+    Provide:
+
+* Complete downloadable ZIP
+* Full source code
+* Working package.json files
+* MongoDB configuration
+* Deployment instructions
+* GitHub push instructions
+
+The project must compile successfully without errors and be fully functional locally before delivery.
+make sure make the website with a neat and clean UI proper Alignment 
+add some animation which make website more asthetic

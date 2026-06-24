@@ -1,0 +1,14 @@
+{
+  "name": "employee-payroll-system",
+  "version": "1.0.0",
+  "description": "Monorepo runner for Employee Management, Attendance & Payroll System",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
